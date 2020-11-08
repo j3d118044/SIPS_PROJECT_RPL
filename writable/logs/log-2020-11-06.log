@@ -1,0 +1,12 @@
+CRITICAL - 2020-11-06 07:38:24 --> Undefined variable: title
+#0 D:\xampp\htdocs\ci4app\app\Views\layout\template.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 13, Array)
+#1 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 D:\xampp\htdocs\ci4app\app\Controllers\Home.php(9): view('pages/home')
+#5 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#6 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#10 {main}
