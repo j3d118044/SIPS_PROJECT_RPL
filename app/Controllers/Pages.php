@@ -4,12 +4,20 @@ namespace App\Controllers;
 
 class Pages extends BaseController
 {
-    public function index()
+    public function landing()
+    {
+        $data = [
+            'title' => 'Selamat Datang di SIPS'
+        ];
+        return view('pages/landing', $data);
+    }
+
+    public function beranda()
     {
         $data = [
             'title' => 'Beranda'
         ];
-        return view('pages/home', $data);
+        return view('pages/beranda', $data);
     }
 
     public function materi()

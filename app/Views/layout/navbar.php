@@ -1,11 +1,11 @@
 <ul>
-    <li><a class="nav-link" href="pages/home"><i class="fa fa-home" aria-hidden="true"></i> Beranda</a></li>
-    <li><a class="nav-link" href="pages/materi"><i class="fa fa-file-text" aria-hidden="true"></i> Materi</a></li>
-    <li><a class="nav-link" href="pages/latihansk"><i class="fa fa-pencil" aria-hidden="true"></i> Latihan Studi Kasus</a></li>
-    <li><a class="nav-link" href="pages/quiz"><i class="fa fa-puzzle-piece" aria-hidden="true"></i> Quiz</a></li>
-    <li><a class="nav-link" href="pages/peringkat"><i class="fa fa-trophy" aria-hidden="true"></i> Peringkat</a></li>
-    <li><a class="nav-link" href="pages/tentang"><i class="fa fa-users" aria-hidden="true"></i> Tentang</a></li>
-    <li><a class="nav-link" href="pages/masuk"><i class="fa fa-sign-out" aria-hidden="true"></i> Masuk</a></li>
+    <li><a class="nav-link" href="<?= site_url('pages/home') ?>"><i class="fa fa-home" aria-hidden="true"></i> Beranda</a></li>
+    <li><a class="nav-link" href="<?= site_url('pages/materi') ?>"><i class="fa fa-file-text" aria-hidden="true"></i> Materi</a></li>
+    <li><a class="nav-link" href="<?= site_url('pages/latihansk') ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Latihan Studi Kasus</a></li>
+    <li><a class="nav-link" href="<?= site_url('pages/quiz') ?>"><i class="fa fa-puzzle-piece" aria-hidden="true"></i> Quiz</a></li>
+    <li><a class="nav-link" href="<?= site_url('pages/peringkat') ?>"><i class="fa fa-trophy" aria-hidden="true"></i> Peringkat</a></li>
+    <li><a class="nav-link" href="<?= site_url('pages/tentang') ?>"><i class="fa fa-users" aria-hidden="true"></i> Tentang</a></li>
+    <li><a class="nav-link" href="<?= site_url('pages/masuk') ?>"><i class="fa fa-sign-in" aria-hidden="true"></i> Masuk</a></li>
 </ul>
 
 <!-- 

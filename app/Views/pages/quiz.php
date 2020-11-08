@@ -1,11 +1,14 @@
-<?= $this->extend('layout/template'); ?>
+<?= $this->extend('layout/template-2'); ?>
 
 <?= $this->section('content'); ?>
 
-<header class="masthead">
-    <div class="jumbotron jumbotron-fluid">
-        <h2 style="text-align: center;">Quiz SIPS</h2>
-    </div>
-</header>
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>
+
+</div>
+<!-- /.container-fluid -->
 
 <?= $this->endSection('content'); ?>

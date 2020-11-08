@@ -30,7 +30,8 @@
                                     <p class="text-center" style="color: #ffffff">Dengan masuk Anda menerima <a href="#">persyaratan pengguna</a></p>
                                 </div>
                                 <div class="col-md-12 text-center ">
-                                    <button type="submit" class=" btn btn-block mybtn btn-dark tx-tfm">Masuk</button>
+                                    <!-- <button type="submit" class=" btn btn-block mybtn btn-dark tx-tfm">Masuk</button> -->
+                                    <a href="<?= site_url('pages/home') ?> " class=" btn btn-block mybtn btn-dark tx-tfm">Masuk</a>
                                 </div>
                                 <div class="col-md-12 ">
                                     <div class="login-or">
