@@ -14,6 +14,9 @@
                     <a class="btn btn-dark btn-sign-in" href="<?= site_url('pages/masuk') ?>">Masuk</a>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                    <!-- <a href="/" class="pop-up-about" target="_self" data-toggle="modal" data-target="#anggotaKelompok">
+                        <i class="fa fa-users fa-md"></i> About
+                    </a> -->
                     <img src="<?= base_url('img/abstract-pink.png'); ?>" class="img-fluid-right" alt="Responsive image">
                     <img src="<?= base_url('img/big-1.png'); ?>" class="img-fluid-right" alt="Responsive image">
                 </div>

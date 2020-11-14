@@ -1,0 +1,10 @@
+CRITICAL - 2020-11-12 07:52:55 --> Invalid file: pages/home.php
+#0 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/home.php')
+#1 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#2 D:\xampp\htdocs\ci4app\app\Controllers\Home.php(12): view('pages/home', Array)
+#3 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
