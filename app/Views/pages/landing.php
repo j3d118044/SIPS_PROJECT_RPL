@@ -57,8 +57,7 @@
   <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-        <div class="modal-text-center 
-        mt-2">
+        <div class="modal-text-center mt-2">
           <h5 class="modal-title text-gray-900 font-weight-bold text-center">Kelompok 5 TEK3A P1</h5>
           </button>
         </div>
@@ -103,46 +102,111 @@
 
             <!-- Profil Mahasiswa -->
             <em class="font-weight-bold mb-2">Mahasiswa</em>
-            <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
-              <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/mala.jpg'); ?>" alt="mala">
-              Nurmala Ameliana
-              <span class="badge badge-dark-blue badge-pill">Tester</span>
+            <li class="list-group-item align-items-center py-1">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/mala.jpg'); ?>" alt="mala">
+                </div>
+                <div class="col-md-6">
+                  Nurmala Ameliana
+                </div>
+                <div class="col-md-4 text-center">
+                  <span class="badge badge-dark-blue badge-pill">Tester</span>
+                </div>
+              </div>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
-              <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/wafi.png'); ?>" alt="naufal">
-              Muhammad Naufal Wafi
-              <span class="badge badge-dark-blue badge-pill">Back End Programmer</span>
+            <li class="list-group-item align-items-center py-1">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/wafi.png'); ?>" alt="mala">
+                </div>
+                <div class="col-md-6">
+                  Muhammad Naufal Wafi
+                </div>
+                <div class="col-md-4 text-center">
+                  <span class="badge badge-dark-blue badge-pill">Back End</span>
+                </div>
+              </div>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
-              <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/gita.jpg'); ?>" alt="gita">
-              Sagita Hapsari
-              <span class="badge badge-dark-blue badge-pill">Front End Programmer</span>
+            <li class="list-group-item align-items-center py-1">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/gita.jpg'); ?>" alt="mala">
+                </div>
+                <div class="col-md-6">
+                  Sagita Hapsari
+                </div>
+                <div class="col-md-4 text-center">
+                  <span class="badge badge-dark-blue badge-pill">Front End</span>
+                </div>
+              </div>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
-              <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/nazla.png'); ?>" alt="nazla">
-              Nazla Bella Fadilah
-              <span class="badge badge-dark-blue badge-pill">System Analyst</span>
+            <li class="list-group-item align-items-center py-1">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/arvy.png'); ?>" alt="mala">
+                </div>
+                <div class="col-md-6">
+                  Arvy Adhitya Sutisna
+                </div>
+                <div class="col-md-4 text-center">
+                  <span class="badge badge-dark-blue badge-pill">Project Manager</span>
+                </div>
+              </div>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
-              <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/arvy.png'); ?>" alt="arvy">
-              Arvy Adhitya Sutisna
-              <span class="badge badge-dark-blue badge-pill">Project Manager</span>
+            <li class="list-group-item align-items-center py-1">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/nazla.png'); ?>" alt="mala">
+                </div>
+                <div class="col-md-6">
+                  Nazla Bella Fadilah
+                </div>
+                <div class="col-md-4  text-center">
+                  <span class="badge badge-dark-blue badge-pill">System Analyst</span>
+                </div>
+              </div>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
-              <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/sendy.png'); ?>" alt="sendy">
-              Sendy Cahyono
-              <span class="badge badge-dark-blue badge-pill">Documenter</span>
+            <li class="list-group-item align-items-center py-1">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/sendy.png'); ?>" alt="mala">
+                </div>
+                <div class="col-md-6">
+                  Sendy Cahyono
+                </div>
+                <div class="col-md-4  text-center">
+                  <span class="badge badge-dark-blue badge-pill">Documenter</span>
+                </div>
+              </div>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
-              <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/sasa.png'); ?>" alt="sasa">
-              Annisa Nur Fitriyani
-              <span class="badge badge-dark-blue badge-pill">Data Analyst</span>
+            <li class="list-group-item align-items-center py-1">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/mala.jpg'); ?>" alt="mala">
+                </div>
+                <div class="col-md-6">
+                  Annisa Nur Fitriyani
+                </div>
+                <div class="col-md-4 text-center">
+                  <span class="badge badge-dark-blue badge-pill">Data Analyst</span>
+                </div>
+              </div>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
-              <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/zuzu.png'); ?>" alt="arman">
-              Zuharman
-              <span class="badge badge-dark-blue badge-pill">Tester</span>
+            <li class="list-group-item align-items-center py-1">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <img class="rounded-circle" width="40" height="auto" src=" <?= base_url('assets/img/kelompok/zuzu.png'); ?>" alt="mala">
+                </div>
+                <div class="col-md-6">
+                  Zuharman
+                </div>
+                <div class="col-md-4 text-center">
+                  <span class="badge badge-dark-blue badge-pill">Tester</span>
+                </div>
+              </div>
             </li>
+            
           </ul>
         </div>
         <li class="list-group-item align-items-center py-1">
