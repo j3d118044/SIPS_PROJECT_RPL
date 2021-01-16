@@ -1,16 +1,12 @@
-<?php
-
-namespace App\Controllers;
+<?php namespace App\Controllers;
 
 class Home extends BaseController
 {
 	public function index()
 	{
-		$data = [
-			'title' => 'Beranda'
-		];
-		return view('pages/home', $data);
+		return view('welcome_message');
 	}
+
 	//--------------------------------------------------------------------
 
 }
